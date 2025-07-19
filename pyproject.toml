@@ -1,5 +1,5 @@
 [project]
-name = "textsummarizerapi"
+name = "textsummarizer"
 version = "0.1.0"
 description = "an api that summarizes long texts contained in files"
 authors = [
