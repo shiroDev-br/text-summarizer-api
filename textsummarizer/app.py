@@ -1,7 +1,3 @@
-from fastapi import FastAPI
+from textsummarizer.setup import setup
 
-app = FastAPI()
-
-@app.get("/")
-async def read_main():
-    return {"msg": "Hello World"}
+app = setup()
